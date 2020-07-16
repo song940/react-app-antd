@@ -1,0 +1,71 @@
+.interface{
+  color: #fff;
+  width: 1.5rem;
+  height: 0.8rem;
+  padding: 0.05rem;
+  position: relative;
+  font-family: monospace;
+  margin-right: 0.1rem;
+  display: inline-block;
+  border-radius: 5px;
+  transition: all 300ms linear;
+  box-shadow: 2px 2px 2px 2px #ddd;
+  background: linear-gradient(45deg, #87e0fd 12%,#53cbf1 61%)
+}
+.interface:hover{
+    box-shadow: 3px 3px 3px 3px #ddd;
+  }
+.interface-name{
+    color: #fff;
+  }
+.interface-label{
+    margin-top: -0.03rem;
+    text-align: right;
+  }
+.interface-expand, .interface-upload, .interface-download {
+    position: relative;
+    font-size: 0.08rem;
+    line-height: 10px;
+    display: inline-block;
+    font-family: monospace;
+    overflow: hidden;
+    border-radius: 3px;
+    background: #030303;
+    padding: 0.01rem 0.02rem;
+    margin-right: 0.02rem;
+  }
+.interface-upload, .interface-download{
+    padding-left:0.08rem
+  }
+.interface-upload:after,.interface-download:after{
+      left: 3px;
+      top: 4px;
+      width: 0.03rem;
+      height: 0.03rem;
+      content: '';
+      display: block;
+      position: absolute;
+      background: #f70;
+      border-radius: 3px;
+    }
+.interface-download:after{
+    background: lightgreen;
+  }
+.interface-expand{
+    width: 0.1rem;
+    content: 'i';
+    cursor: pointer;
+    text-align: center;
+  }
+.interface-view{
+    width: 100%;
+    height: 2rem;
+    margin-top: 0.5rem;
+    padding: 0.1rem;
+    border-radius: 5px;
+    background: #585858;
+  }
+.interface-view h3{
+      color: #fff;
+      font-family: monospace;
+    }
